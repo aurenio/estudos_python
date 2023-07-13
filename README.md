@@ -1,4 +1,4 @@
-<h1>Lugar onde colocarei codigos que tenham em sua composição em grande parte a linguagem python</h1>
+<h1>Lugar onde colocarei códigos que tenham em sua composição em grande parte a linguagem python</h1>
 
 <h3>by a.a</h3>
 
