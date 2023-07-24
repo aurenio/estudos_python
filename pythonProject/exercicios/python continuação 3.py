@@ -1,0 +1,8 @@
+a = str(input("Digite uma frase: ")).strip().lower()
+print(f"A quantidade de as que tem no seu nome é {a.count('a')}")
+print(f"O primeiro 'a' aparece na posiçâo: {a.find('a')+1}")
+print(f"O último 'a' aparece na posição: {a.rfind('a')+1}")
+b=str(input("Digite o seu nome completo: "))
+c= b.split()
+print(f"seu primeiro nome é {c[0]}")
+print(f"seu último nome é {c[-1]}")

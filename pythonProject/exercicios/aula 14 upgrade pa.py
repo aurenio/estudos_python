@@ -1,0 +1,12 @@
+num1 = int(input('Qual vai ser o primeiro termo: \n'))
+raz = int(input('Qual a razâo?\n '))
+mais = 10
+total = 0
+cont = 1
+while mais != 0:
+    total += mais
+    while total >= cont:
+        print(f'{num1}->', end='')
+        num1 += raz
+        cont += 1
+    mais= int(input('Quantas pa você ainda quer mostar?\n '))
