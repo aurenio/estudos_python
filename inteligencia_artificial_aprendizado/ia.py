@@ -14,11 +14,10 @@ dog_01 = [0, 1, 1]
 dog_02 = [1, 0, 1]
 dog_03 = [1, 1, 1]
 
-galinha = [0,0,0]
 
-dados = [porco_01, porco_02, porco_03, dog_01, dog_02, dog_03, galinha]
+dados = [porco_01, porco_02, porco_03, dog_01, dog_02, dog_03]
 #adicionando uma lista de dados
-classes = [1, 1, 1, 0, 0, 0, 2]
+classes = [1, 1, 1, 0, 0, 0]
 #separando em classes
 ia = LinearSVC()
 #adicionando o modelo de inteligencia e apontando como ela tem que aprender
